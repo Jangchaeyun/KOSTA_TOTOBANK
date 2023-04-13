@@ -4,10 +4,11 @@ import Swal from "sweetalert2";
 const MakeAccount = () => {
   const formStyle = {
     width: "500px",
-    margin: "20px auto",
+    margin: "150px auto",
     border: "1px solid lightgray",
     padding: "30px",
     borderRadius: "7px",
+    backgroundColor: "lightgray",
   };
   const [acc, setAcc] = useState({
     id: "",

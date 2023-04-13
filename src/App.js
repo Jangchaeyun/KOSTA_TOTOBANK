@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Main />} />
         <Route exact path="/makeAccount" element={<MakeAccount />} />
-        <Route exact path="/depisit" element={<Deposit />} />
+        <Route exact path="/deposit" element={<Deposit />} />
         <Route exact path="/withdraw" element={<Withdraw />} />
         <Route exact path="/accountInfo" element={<AccountInfo />} />
         <Route exact path="/allAccountInfo" element={<AllAccountInfo />} />
